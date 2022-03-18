@@ -84,13 +84,13 @@
 
 #old_messengers {
   width: 100%;
-  height: 93%;
+  height: 91%;
   background-color: rgb(239, 234, 226);
 }
 
 #new_messengers {
   width: 100%;
-  height: 7%;
+  height: 9%;
   background-color: rgb(240, 242, 245);
 }
 
@@ -104,22 +104,22 @@
   height: 100%;
   align-items: center;
 }
-#self {
+#self_self_perfil {
   width: 10%;
   height: 70%;
   padding-right: 40%;
 }
 
-#status,
-#msg,
-#more {
+#status_self_perfil,
+#msg_self_perfil,
+#more_self_perfil {
   width: 5%;
 }
 
-#status img,
-#self img,
-#msg img,
-#more img {
+#status_self_perfil img,
+#self_self_perfil img,
+#msg_self_perfil img,
+#more_self_perfil img {
   width: 100%;
   opacity: 0.7;
 }
@@ -163,16 +163,18 @@
 /*Placeholder search*/
 
 #search2 input::-webkit-input-placeholder {
-  font-size: 60%;
+  font-size: 70%;
 }
 
-#search2 input:focus {
+#search2 input:focus,
+#nm_msg input:focus {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
 }
 
-#search2 input:focus::placeholder {
+#search2 input:focus::placeholder,
+#nm_msg input:focus::placeholder {
   color: transparent;
 }
 
@@ -194,25 +196,25 @@
   background-color: rgb(240, 242, 245);
 }
 
-.foto {
+.pic_chat {
   width: 16%;
   opacity: 0.5;
   margin: auto 2%;
 }
 
-.foto img {
+.pic_chat img {
   width: 100%;
   height: 100%;
 }
 
-.conteudo {
+.content_chat {
   width: 78%;
   border-bottom: 1px solid rgb(210, 210, 210);
   position: relative;
 }
 
-.foto,
-.conteudo {
+.pic_chat,
+.content_chat {
   display: inline-block;
   height: 100%;
 }
@@ -227,13 +229,13 @@
   background-color: rgb(226, 225, 222);
 }
 
-#name_olds {
+#name_lastmsg {
   width: 80%;
   height: 100%;
   position: absolute;
 }
 
-#name_olds p {
+#name_lastmsg p {
   width: 100%;
   height: 50%;
 }
@@ -245,10 +247,120 @@
   right: 0;
 }
 
-#name {
+#name_name_lastmsg {
   margin-top: 4%;
 }
 
-#old {
+#lastmsg_name_lastmsg {
   opacity: 0.5;
+}
+
+/* other perfil */
+
+#other_perfil ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#pic_op {
+  width: auto;
+  height: 90%;
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+
+#name_status_op {
+  width: 80%;
+  height: 100%;
+  text-decoration: none;
+}
+
+#name_status_op a,
+#name_status_op a:hover,
+#name_status_op a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#more_op,
+#search_op {
+  width: auto;
+  height: 40%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 2%;
+  padding-left: 1.5%;
+}
+
+#more_op img,
+#search_op img,
+#pic_op img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+#name_status_op p {
+  width: 98%;
+  height: 50%;
+}
+
+#name_name_status_op {
+  font-size: 100%;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+#status_name_status_op {
+  font-size: 80%;
+  padding-left: 2%;
+  opacity: 0.5;
+}
+
+/* New_Mensseger */
+
+#new_messengers ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#nm_emojis img,
+#nm_attach img,
+#nm_mic img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+#nm_emojis,
+#nm_attach,
+#nm_mic {
+  width: auto;
+  height: 50%;
+  margin: auto 1.5%;
+}
+
+#nm_mic {
+  margin-left: 2.5%;
+}
+
+#nm_msg {
+  width: 80%;
+  height: 100%;
+}
+
+#nm_msg input {
+  width: 100%;
+  height: 60%;
+  border-radius: 0.5rem;
+  margin-top: 1.3%;
+  border: none;
+}
+
+#nm_msg input::placeholder {
+  font-size: 80%;
+  padding-left: 2%;
+  opacity: 0.8;
 }
