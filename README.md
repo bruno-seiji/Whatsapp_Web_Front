@@ -7,7 +7,9 @@
 
 ---
 
-https://github.com/bruno-seiji/whatsapp_web_front/blob/1f2af7717810f548e8bda3fa5dc78b27f076b74c/clone_whatsweb.jpg
+## Resultado
+![clone_whatsweb](https://user-images.githubusercontent.com/88354853/159059924-40ca5286-9be8-4179-82eb-9c39ebb1c0c3.jpg)
+
 
 ---
 
